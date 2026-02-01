@@ -1,0 +1,7 @@
+{
+  "name": "GTL Records Beat Market",
+  "description": "The official premium web-based beat catalog for GTL Records.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

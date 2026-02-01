@@ -1,0 +1,39 @@
+
+{
+  "name": "GTL Records Market",
+  "short_name": "GTL Market",
+  "description": "Premium GTL Records beat catalog for Android.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": ["music", "business"],
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=192&h=192&fit=crop",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=512&h=512&fit=crop",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "A&R Match",
+      "url": "/?section=ai_match",
+      "description": "Find a beat with AI"
+    },
+    {
+      "name": "Lyric Lab",
+      "url": "/?section=lyric_lab",
+      "description": "Write new bars"
+    }
+  ]
+}
